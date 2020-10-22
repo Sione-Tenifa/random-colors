@@ -3,9 +3,14 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: black;
+  /* background-color: black; */
+  /* transition: color 1000ms; */
+
 }
 
+.body{
+  transition: background 1000ms;
+}
 h1 {
   font-size: 15rem;
   font-family: Montserrat;

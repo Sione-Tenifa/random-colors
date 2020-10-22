@@ -19,3 +19,10 @@ const intervalId = setInterval(function () {
     letter.style.color = randomRGB();
   }
 }, 1000);
+
+const body = document.querySelectorAll('body')
+const intId = setInterval(function(){
+  for (let bod of body){
+    bod.style.backgroundColor = randomRGB();
+  }
+}, 2000)
